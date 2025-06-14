@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>For meri Jaan</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo Demasiado Elena.</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Press Start 2P', cursive;
+            background-color: #FFB6C1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .scene {
+            width: 300px;
+            height: 200px;
+            perspective: 1000px;
+        }
+
+        .envelope {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .envelope-front, .envelope-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .envelope-front {
+            background-color: #F4A460;
+        }
+
+        .envelope-back {
+            background-color: #DEB887;
+            transform: rotateY(180deg);
+        }
+
+        .heart {
+            width: 50px;
+            height: 50px;
+            background-color: #8B0000;
+            transform: rotate(-45deg);
+            animation: throb 1s ease-in-out infinite;
+        }
+
+        .heart::before, .heart::after {
+            content: "";
+            width: 50px;
+            height: 50px;
+            background-color: #8B0000;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .heart::before {
+            top: -25px;
+        }
+
+        .heart::after {
+            left: 25px;
+        }
+
+        @keyframes throb {
+            0%, 100% { transform: rotate(-45deg) scale(1); }
+            50% { transform: rotate(-45deg) scale(1.1); }
+        }
+
+        .letter {
+            background-color: #FFFAFA;
+            padding: 20px;
+            width: 90%;
+            height: 90%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            font-size: 10px;
+            line-height: 1.5;
+            color: #8B0000;
+        }
+
+        /* Updated cat emoticons andheart styling */
+        .cat-emoticons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .kawaii-heart {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #FF69B4;
+            animation: pulse 1s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.2); }
+        }
+
+        /* Swaying tulips */
+        .tulip {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAG5JREFUOE9jZKAQMFKon2HUAAYGhv81jAxbpaWlP6JrRjEgLS3NQFpaehIDA8NRBgaGLAYGhk4GBoYpVRkZO9ENwWoAzBBkbmVGxhRcLiHKC+heQTcEnxeINoAYL+A0gJAX8BpAyAv4DSBkAMVZGQBU2SIRyIdTcQAAAABJRU5ErkJggg==');
+            background-size: contain;
+            animation: sway 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes sway {
+            0% { transform: translateX(0) rotate(0deg); }
+            100% { transform: translateX(5px) rotate(5deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="scene">
+        <div class="envelope">
+            <div class="envelope-front">
+                <div class="heart"></div>
+            </div>
+            <div class="envelope-back">
+                <div class="letter">
+                    <!-- Updated cat emoticons and kawaii heart -->
+                    <div class="cat-emoticons">
+                        <span>🐈‍⬛</span>
+                        <span class="kawaii-heart">♡</span>
+                        <span>🐈</span>
+                    </div>
+                    <h1>Me Encantas</h1>
+                    <p>Elena Bella,</p>
+                    <p>Para mi querida Elena,
+
+Solo quería tomar un momento para recordarte cuánto significas para mí. No hay día en el que no agradezca tener a una persona tan única, fuerte, tierna y maravillosa como tú a mi lado.
+
+Tu forma de ser, con ese carácter tan tú —berrinchuda, consentida, enojona, pero al mismo tiempo dulce y amorosa— me tiene completamente encantado. Eres mi niña berrinchuda y consentida, y no cambiaría eso por nada.
+
+Gracias por estar conmigo, por ser tú. Te quiero más de lo que las palabras pueden decir.</p>
+    <p>Mi Elena,
+
+A veces me sorprendo pensando en ti sin darme cuenta. Como si tu sonrisa, tu voz y tus ojitos se hubieran vuelto parte de mis pensamientos más automáticos. Y es que contigo, hasta lo cotidiano se siente especial.
+
+Amo cuando haces berrinche por tonterías, cuando te enojas y cruzas los brazos, y también cuando terminas cediendo con esa ternura que solo tú tienes. No importa cómo estés, yo siempre te voy a mirar con ojos de amor. Porque eres perfecta, incluso en tus enojos.</p>
+    <p> Mi niña berrinchuda y consentida,
+
+Sé que a veces te enojas conmigo, que me haces pucheros y me lanzas miradas que podrían derretir el hielo… pero hasta en esos momentos, te amo con locura.
+
+Porque detrás de tus enojos hay una ternura tan grande, que no puedo hacer otra cosa más que sonreír y abrazarte más fuerte. Aunque peleemos, aunque discutamos, siempre voy a buscar la forma de volver a hacerte reír, porque tu risa es mi paz.
+
+Yo no quiero una historia perfecta. Quiero una historia real, contigo, con tus berrinches, tus risas, tus enojos y todo lo que eres. Porque todo lo que eres, lo amo.
+
+Siempre tuyo,
+El que no deja de pensar en ti</p>
+
+    <hr style="border: none; border-top: 2px solid #FF69B4; margin: 20px 0; text-align: center;"/>
+
+    <p>Este es el primero de 32 mensajes. Solo quería enviarte esta nota introductoria antes de que te vayas a dormir. Uno más serio viene en camino, con sorpresas ocultas y diseños únicos en cada carta.</p>
+
+    <hr style="border: none; border-top: 2px dotted #FF69B4; margin: 20px 0;"/>
+                    <p>Con Todo Mi Amor,</p>
+                    <p>Tu Oso (me chivie haciendo esto lrptm)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function createTulips() {
+            const body = document.body;
+            for (let i = 0; i < 20; i++) {
+                const tulip = document.createElement('div');
+                tulip.className = 'tulip';
+                tulip.style.left = `${Math.random() * 100}%`;
+                tulip.style.top = `${Math.random() * 100}%`;
+                tulip.style.animationDelay = `${Math.random() * 2}s`;
+                body.appendChild(tulip);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            createTulips();
+            const envelope = document.querySelector('.envelope');
+            envelope.addEventListener('click', function() {
+                this.style.transform = this.style.transform === 'rotateY(180deg)' 
+                    ? 'rotateY(0deg)' 
+                    : 'rotateY(180deg)';
+            });
+        });
+    </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
